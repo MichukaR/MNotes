@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MauiApp3;
+namespace MauiApp3.Views;
 
 public partial class AboutPage : ContentPage
 {
