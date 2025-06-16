@@ -10,7 +10,7 @@
     <TabBar>
         <ShellContent
             Title="Notes"
-            ContentTemplate="{DataTemplate local:MainPage}"/>
+            ContentTemplate="{DataTemplate local:NotePage}"/>
 
         <ShellContent
             Title="About"
