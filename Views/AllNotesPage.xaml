@@ -6,10 +6,11 @@
              x:Class="MauiApp3.Views.AllNotesPage"
              x:DataType="models:AllNotes"
              Title="Your Notes">
+    
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add" Clicked="Add_Clicked" IconImageSource="{FontImage Glyph='+', Color=Black, Size=22}" />
+        <ToolbarItem Text="Add" Clicked="Add_Clicked" IconImageSource="{FontImage Glyph='+', Color=White, Size=22}" />
     </ContentPage.ToolbarItems>
-
+    
     <!-- Display notes in a list -->
     <CollectionView x:Name="notesCollection"
                     ItemsSource="{Binding Notes}"
